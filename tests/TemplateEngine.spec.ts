@@ -5,6 +5,6 @@ describe("Template Engine", () => {
     const template = 'This is a template with one ${variable}';
     const values = { variable: "foo" };
 
-    expect(templateEngine(template, values)).toBe('This template with one foo');
+    expect(templateEngine(template, values)).toBe('This is a template with one foo');
   });
 });
